@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "haxe tests.hxml --interp"
+  },
+  "devDependencies": {
+    "lix": "^15.9.0"
+  }
+}
