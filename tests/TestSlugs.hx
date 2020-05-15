@@ -18,7 +18,7 @@ class TestSlugs {
     asserts.assert(slug('a -,.b') == 'a-b');
     asserts.assert(slug('a -,.b-)') == 'a-b');
 
-    asserts.assert(slug('Лорем ипсум') == 'Лорем-ипсум');
+    asserts.assert(slug('Лорем ипсум') == 'лорем-ипсум');
 
     return asserts.done();
   }
