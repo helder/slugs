@@ -8,7 +8,7 @@
 	"repository": "https://github.com/helder/slugs",
   "publishConfig": {"access": "public"},
   "scripts": {
-    "postinstall": "lix download",
+    "prepare": "lix download",
     "test": "haxe tests.hxml --interp",
     "build:js": "haxe build-js.hxml"
   },
