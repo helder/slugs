@@ -1,8 +1,17 @@
 {
+  "name": "helder.slugs",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": ["dist","src"],
+	"repository": "https://github.com/helder/slugs",
+  "publishConfig": {"access": "public"},
   "scripts": {
-    "test": "haxe tests.hxml --interp"
+    "postinstall": "lix download",
+    "test": "haxe tests.hxml --interp",
+    "build:js": "haxe build-js.hxml"
   },
-  "devDependencies": {
-    "lix": "^15.9.0"
-  }
+  "devDependencies": {"lix": "^15.10.1"},
+  "dependencies": {"helder.std": "^4.2.2-0.2.0"}
 }

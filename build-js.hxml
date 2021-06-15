@@ -1,0 +1,10 @@
+-lib helder.std
+-lib helder.set
+-lib genes
+-cp src
+-D dts
+-D js_source_map
+-D analyzer_optimize
+-dce full
+helder.Slugs
+-js dist/index.mjs

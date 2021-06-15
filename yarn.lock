@@ -2,7 +2,12 @@
 # yarn lockfile v1
 
 
-lix@^15.9.0:
-  version "15.9.0"
-  resolved "https://registry.yarnpkg.com/lix/-/lix-15.9.0.tgz#b2fb9d7ab7a597f0b653b1798b26238589835032"
-  integrity sha512-XyIVUZ9Mr3DNPXwbvKrAS3t1XeeBugbrva/YoMUQSJLrmCwVNlx1/ishj4bkZ/WdH1x0m1Smd767zwyr6wy/8g==
+helder.std@^4.2.2-0.2.0:
+  version "4.2.2-0.2.0"
+  resolved "https://registry.yarnpkg.com/helder.std/-/helder.std-4.2.2-0.2.0.tgz#ad01ce705870a26393d1f1612944d46bfe931493"
+  integrity sha512-fm0Tv4JvRdHHr0LVMyQgtW/fTI4aYuaYBT5oZtC2Gc+wqRxdERQiEbtJ9uwZzahU6MWzdCs2PSr8Z8migBwd1g==
+
+lix@^15.10.1:
+  version "15.10.1"
+  resolved "https://registry.yarnpkg.com/lix/-/lix-15.10.1.tgz#69392b46f4f4538206cda1090602a8c4d8959aa2"
+  integrity sha512-UZX+p4i+2ZSEyI6p2Yu1sfC0pRRFnFHDpNQ2+FqhxmBG8cCiHZkj+I8FqCK4AUuQ/VOPE/bK69JbWez+OG3zaA==
